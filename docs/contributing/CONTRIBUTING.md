@@ -44,8 +44,8 @@ We actively welcome your pull requests!
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zaingz/metrics-pipeline.git
-   cd metrics-pipeline
+   git clone https://github.com/zaingz/metrics_pipeline.git
+   cd metrics_pipeline
    ```
 
 2. Install dependencies:
@@ -127,7 +127,7 @@ These are all configured in the project's `pyproject.toml` and will be run autom
 ## Project Structure
 
 ```
-metrics-pipeline/
+metrics_pipeline/
 ├── src/
 │   └── metrics_pipeline/
 │       ├── adapters/

@@ -2,8 +2,8 @@
 
 A scalable, extensible metrics ingestion and visualization pipeline for collecting, processing, and visualizing user interaction metrics.
 
-[![CI/CD](https://github.com/zaingz/metrics-pipeline/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/zaingz/metrics-pipeline/actions/workflows/ci-cd.yml)
-[![PyPI version](https://badge.fury.io/py/metrics-pipeline.svg)](https://badge.fury.io/py/metrics-pipeline)
+[![CI/CD](https://github.com/zaingz/metrics_pipeline/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/zaingz/metrics_pipeline/actions/workflows/ci-cd.yml)
+[![PyPI version](https://badge.fury.io/py/metrics_pipeline.svg)](https://badge.fury.io/py/metrics_pipeline)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -24,7 +24,7 @@ Metrics Pipeline is an open-source framework designed to help developers collect
 ### Installation
 
 ```bash
-pip install metrics-pipeline
+pip install metrics_pipeline
 ```
 
 ### Basic Usage
@@ -121,8 +121,8 @@ class CustomVisualizationAdapter(VisualizationAdapter):
 
 ```bash
 # Clone the repository
-git clone https://github.com/zaingz/metrics-pipeline.git
-cd metrics-pipeline
+git clone https://github.com/zaingz/metrics_pipeline.git
+cd metrics_pipeline
 
 # Install development dependencies
 pip install -e ".[dev]"

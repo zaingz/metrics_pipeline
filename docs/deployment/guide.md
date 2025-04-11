@@ -14,8 +14,8 @@ This guide provides instructions for deploying the Metrics Pipeline in various e
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zaingz/metrics-pipeline.git
-   cd metrics-pipeline
+   git clone https://github.com/zaingz/metrics_pipeline.git
+   cd metrics_pipeline
    ```
 
 2. Install dependencies:
@@ -58,8 +58,8 @@ This guide provides instructions for deploying the Metrics Pipeline in various e
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zaingz/metrics-pipeline.git
-   cd metrics-pipeline
+   git clone https://github.com/zaingz/metrics_pipeline.git
+   cd metrics_pipeline
    ```
 
 2. Install dependencies:
@@ -76,8 +76,8 @@ This guide provides instructions for deploying the Metrics Pipeline in various e
 4. Configure deployment parameters:
    ```bash
    pulumi config set aws:region us-east-1
-   pulumi config set metrics-pipeline:environment dev
-   pulumi config set metrics-pipeline:instance_type t3.medium
+   pulumi config set metrics_pipeline:environment dev
+   pulumi config set metrics_pipeline:instance_type t3.medium
    ```
 
 5. Deploy the infrastructure:
@@ -108,8 +108,8 @@ This guide provides instructions for deploying the Metrics Pipeline in various e
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zaingz/metrics-pipeline.git
-   cd metrics-pipeline
+   git clone https://github.com/zaingz/metrics_pipeline.git
+   cd metrics_pipeline
    ```
 
 2. Build the Docker images:
@@ -185,6 +185,6 @@ This guide provides instructions for deploying the Metrics Pipeline in various e
 ### Support
 
 For additional support:
-- Check the [GitHub issues](https://github.com/zaingz/metrics-pipeline/issues)
+- Check the [GitHub issues](https://github.com/zaingz/metrics_pipeline/issues)
 - Join the community discussion on [Discord/Slack]
 - Contact the maintainers at [email]

@@ -4,18 +4,18 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="metrics-pipeline",
+    name="metrics_pipeline",
     version="0.1.0",
     author="Metrics Pipeline Contributors",
     author_email="your.email@example.com",
     description="A scalable, extensible metrics ingestion and visualization pipeline",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/zaingz/metrics-pipeline",
+    url="https://github.com/zaingz/metrics_pipeline",
     project_urls={
-        "Bug Tracker": "https://github.com/zaingz/metrics-pipeline/issues",
-        "Documentation": "https://github.com/zaingz/metrics-pipeline/tree/main/docs",
-        "Source Code": "https://github.com/zaingz/metrics-pipeline",
+        "Bug Tracker": "https://github.com/zaingz/metrics_pipeline/issues",
+        "Documentation": "https://github.com/zaingz/metrics_pipeline/tree/main/docs",
+        "Source Code": "https://github.com/zaingz/metrics_pipeline",
     },
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -68,7 +68,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "metrics-pipeline=metrics_pipeline.cli.main:main",
+            "metrics_pipeline=metrics_pipeline.cli.main:main",
         ],
     },
 )

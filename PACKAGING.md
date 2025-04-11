@@ -1,6 +1,6 @@
 # Packaging for Distribution
 
-This file contains instructions for building and distributing the metrics-pipeline package.
+This file contains instructions for building and distributing the metrics_pipeline package.
 
 ## Building the Package
 
@@ -50,7 +50,7 @@ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 To install the package from TestPyPI:
 
 ```bash
-pip install --index-url https://test.pypi.org/simple/ metrics-pipeline
+pip install --index-url https://test.pypi.org/simple/ metrics_pipeline
 ```
 
 ## Version Management

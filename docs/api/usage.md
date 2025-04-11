@@ -7,14 +7,14 @@ This guide provides instructions and examples for using the Metrics Pipeline in 
 ### Using pip
 
 ```bash
-pip install metrics-pipeline
+pip install metrics_pipeline
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/zaingz/metrics-pipeline.git
-cd metrics-pipeline
+git clone https://github.com/zaingz/metrics_pipeline.git
+cd metrics_pipeline
 pip install -e .
 ```
 
